@@ -1,0 +1,38 @@
+GET http://localhost:3000/
+
+####
+GET http://localhost:3000/teste
+####
+####
+GET http://localhost:3000/auth/
+####
+GET http://localhost:3000/auth/users
+####
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "name": "Flavim",
+    "email": "fla@email.com",
+    "password": "12345"
+}
+####
+POST http://localhost:3000/auth/authenticate
+Content-Type: application/json
+
+{
+    "email": "fla@email.com",
+    "password": "12345"
+}
+####
+GET http://localhost:3000/projects
+
+###
+GET http://localhost:3000/projects 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzU3ZTNlM2FkYWVjYTcwMzViM2UwZSIsImlhdCI6MTY3NDA3MjkzNywiZXhwIjoxNjc0MTU5MzM3fQ.FVDITj1YteoioPO3JLyHu8SPiQk0hYUaES70-tvHgus
+
+###
+
+
+
+
