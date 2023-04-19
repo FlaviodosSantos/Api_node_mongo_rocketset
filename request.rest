@@ -29,7 +29,7 @@ GET http://localhost:3000/projects
 
 ###
 GET http://localhost:3000/projects 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzU3ZTNlM2FkYWVjYTcwMzViM2UwZSIsImlhdCI6MTY3NDA3MjkzNywiZXhwIjoxNjc0MTU5MzM3fQ.FVDITj1YteoioPO3JLyHu8SPiQk0hYUaES70-tvHgus
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzU3ZTNlM2FkYWVjYTcwMzViM2UwZSIsImlhdCI6MTY4MTkxMzEwMywiZXhwIjoxNjgxOTk5NTAzfQ.NiRbNH0_nPtsgFYBX86qA3W5GF6_i9R4ze2-e3ZHv4k
 
 ###
 
