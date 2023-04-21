@@ -22,7 +22,7 @@ Content-Type: application/json
 
 {
     "email": "fla@email.com",
-    "password": "12345"
+    "password": "123456789"
 }
 ####
 GET http://localhost:3000/projects
@@ -37,6 +37,16 @@ Content-Type: application/json
 
 {
     "email": "fla@email.com"
+}
+
+###
+POST http://localhost:3000/auth/reset_password
+Content-Type: application/json
+
+{
+    "email": "fla@email.com",
+    "token": "f53e7216c826c5446c0b5dc337c3d876d96fd553",
+    "password": "123456789"
 }
 
 
