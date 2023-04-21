@@ -32,7 +32,12 @@ GET http://localhost:3000/projects
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzU3ZTNlM2FkYWVjYTcwMzViM2UwZSIsImlhdCI6MTY4MTkxMzEwMywiZXhwIjoxNjgxOTk5NTAzfQ.NiRbNH0_nPtsgFYBX86qA3W5GF6_i9R4ze2-e3ZHv4k
 
 ###
+POST http://localhost:3000/auth/forgot_password
+Content-Type: application/json
 
+{
+    "email": "fla@email.com"
+}
 
 
 
