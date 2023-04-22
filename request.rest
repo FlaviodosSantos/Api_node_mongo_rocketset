@@ -12,8 +12,8 @@ POST http://localhost:3000/auth/register
 Content-Type: application/json
 
 {
-    "name": "Flavim",
-    "email": "fla@email.com",
+    "name": "Flavio Gmail",
+    "email": "flaviovorthrox@gmail.com",
     "password": "12345"
 }
 ####
@@ -21,22 +21,22 @@ POST http://localhost:3000/auth/authenticate
 Content-Type: application/json
 
 {
-    "email": "fla@email.com",
-    "password": "123456789"
+    "email": "flaviovorthrox@gmail.com",
+    "password": "12345"
 }
 ####
 GET http://localhost:3000/projects
 
 ###
 GET http://localhost:3000/projects 
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzU3ZTNlM2FkYWVjYTcwMzViM2UwZSIsImlhdCI6MTY4MTkxMzEwMywiZXhwIjoxNjgxOTk5NTAzfQ.NiRbNH0_nPtsgFYBX86qA3W5GF6_i9R4ze2-e3ZHv4k
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NDQyMmJmNjJiMTVkOWJiNzg2YTQ0NSIsImlhdCI6MTY4MjE4NzczMCwiZXhwIjoxNjgyMjc0MTMwfQ.AeYn0-Ulx-HCZqoGakRndVQv5zFi0lPGLAuDuv69_Co
 
 ###
 POST http://localhost:3000/auth/forgot_password
 Content-Type: application/json
 
 {
-    "email": "fla@email.com"
+    "email": "flaviovorthrox@gmail.com"
 }
 
 ###
@@ -44,9 +44,9 @@ POST http://localhost:3000/auth/reset_password
 Content-Type: application/json
 
 {
-    "email": "fla@email.com",
-    "token": "f53e7216c826c5446c0b5dc337c3d876d96fd553",
-    "password": "123456789"
+    "email": "flaviovorthrox@gmail.com",
+    "token": "797ec42d258fcc65ba9be277e212db7a5974ec5d",
+    "password": "12345"
 }
 
 
